@@ -1,1 +1,1 @@
-# string-checking-n-1-algorithm-
+# Big O(1) algorithm for string checking
