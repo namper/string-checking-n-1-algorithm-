@@ -1,6 +1,4 @@
-''' to document this algorithm is really easy, you just need infinite inteligence-jk.
-instead of compearing string_1[n] == string_2[n], which needs immensive time to compute, this algorithm will
-implement hash table, using hash table a certain string will have its own value, for example "abc" = 1*29^2 + 2*29^1 + 3*29^0, 
+'''this algorithm will implement hash table, using hash table a certain string will have its own value, for example "abc" = 1*29^2 + 2*29^1 + 3*29^0, 
 However, long string will need high memory, so we shall take value of string mod in 1000000007=10^9 +7 and double check in modulo 999119999, which is highest prime number
 i know, with this a string not being same ,but value - same will be improbable, so we should be okay. '''
 
